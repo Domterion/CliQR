@@ -1,0 +1,25 @@
+name: cliqr
+version: 0.1.0
+
+authors:
+  - your-name-here <your-email-here>
+
+targets:
+  cliqr:
+    main: src/cliqr.cr
+  
+dependencies:
+  clim:
+    github: at-grandpa/clim
+    version: 0.14.0
+  # sudo apt install libqrencode-dev 
+  qrencode:
+    github: woodruffw/qrencode.cr
+    version: 0.2.2
+  stumpy_png:
+    github: stumpycr/stumpy_png
+    version: "~> 5.0"
+
+crystal: 0.35.1
+
+license: MIT
