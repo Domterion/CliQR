@@ -24,9 +24,11 @@ module Cliqr
         qr.each_row do |row|
           x += 1
           row.each do |byte|
-            y = height - 1 <= y ? 0 : y + 1
+            # puts "#{x - 1} | #{y}"
 
             canvas[x - 1, y] = (QRencode::Util.black?(byte) ? StumpyCore::RGBA::BLACK : StumpyCore::RGBA::WHITE)
+
+            y = height - 1 <= y ? 0 : y + 1
           end
         end
 
