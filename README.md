@@ -10,6 +10,9 @@ Once you have a binary from compiling yourself or maybe future releases. Make su
 This will save a QR code for 'your input' to path/to/file.png
 $ ./cliqr [generate|gen] --input='your input' --output='path/to/file.png'
 
+This will save a QR code for 'your input' to path/to/file.png with size of 400x400. These are square so all sides will be same value.
+$ ./cliqr [generate|gen] --input='your input' --output='path/to/file.png' --size=400
+
 This will print the QR code for 'your input' to console, just omitting the --output flag.
 $ ./cliqr [generate|gen] --input='your input'
 ```

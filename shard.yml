@@ -19,6 +19,8 @@ dependencies:
   stumpy_png:
     github: stumpycr/stumpy_png
     version: "~> 5.0"
+  magickwand-crystal:
+    github: blocknotes/magickwand-crystal
 
 crystal: 0.35.1
 

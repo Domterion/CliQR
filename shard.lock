@@ -4,6 +4,10 @@ shards:
     git: https://github.com/at-grandpa/clim.git
     version: 0.14.0
 
+  magickwand-crystal:
+    git: https://github.com/blocknotes/magickwand-crystal.git
+    version: 0.3.0
+
   qrencode:
     git: https://github.com/woodruffw/qrencode.cr.git
     version: 0.2.2
