@@ -15,7 +15,7 @@ module Cliqr
           Cliqr::Utils.resize size, output
         end
       end
-      puts "Saved the QR code. When scaling make sure there is no smoothing or the code will get blurry."
+      puts "Saved the QR code. When scaling make sure there is no smoothing or the qr code will get blurry."
     end
   end
 end
